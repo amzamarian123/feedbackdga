@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <title>Feedback</title>
+  <link rel="stylesheet" href="style.css"
+  </head>
+  <body>
+    
+    <div class="container">
+      <h2>Lasă-ne un feedback</h2>
+      
+    <form id="feedbackForm">
+      <input type="text" id="name" placeholder="Nume(optional)">
+      <input type="email" id="email" placeholder="Email(optional)">
+      <textarea id="message" placeholder="Scrie feedback-ul tau..." required></textarea>
+      <label>Rating:</label>
+      <select id="rating">
+        <option value="5">⭐⭐⭐⭐⭐</option>
+        <option value="4">⭐⭐⭐⭐</option>
+        <option value="3">⭐⭐⭐</option>
+        <option value="2">⭐⭐</option>
+        <option value="1">⭐</option>
+      </select>
+      <button type="submit">Trimite</button>
+      </form>
+      <div id="feedbackList"></div>
+    </div>
+    <script src="script.js"></script>
+      </body>
+      </html>
